@@ -1,0 +1,15 @@
+server:
+  port: 8761
+  
+spring:
+  application:
+    name: store-discovery
+
+eureka:
+  instance:
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 30
+    lease-expiration-duration-in-seconds: 90
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
