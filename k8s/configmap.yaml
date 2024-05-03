@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+    name: discovery-configmap
+    labels:
+        app: discovery
+data:
+    DISCOVERY_HOST: discovery
