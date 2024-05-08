@@ -17,5 +17,6 @@ spec:
       containers:
         - name: discovery
           image: humbertosandmann/discovery:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 8761
